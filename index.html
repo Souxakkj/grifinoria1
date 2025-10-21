@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grifinória - Casa de Coragem e Bravura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="particles-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Design%20sem%20nome-oLJbWQj29CoWjxPsdgErD9JhX8yqXP.png" alt="Brasão da Grifinória" class="nav-crest">
+                <span>Grifinória</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">A Casa</a></li>
+                <li><a href="#characters">Personagens</a></li>
+                <li><a href="#movies">Filmes</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Design%20sem%20nome-oLJbWQj29CoWjxPsdgErD9JhX8yqXP.png" alt="Brasão da Grifinória" class="hero-crest">
+            <h1 class="hero-title">Grifinória</h1>
+            <p class="hero-subtitle">Onde habitam os corajosos de coração</p>
+            <div class="hero-quote">
+                "Pode ser que pertençam à Grifinória, onde habitam os corações valentes. Ousadia, bravura e nobreza distinguem os alunos da Grifinória."
+                <span class="quote-author">- Chapéu Seletor</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre a Casa Grifinória</h2>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">⚔️</div>
+                    <h3>Fundador</h3>
+                    <p>Godric Gryffindor, um dos quatro fundadores de Hogwarts, valorizava acima de tudo a coragem, a ousadia e a determinação.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">🏰</div>
+                    <h3>Sala Comunal</h3>
+                    <p>Localizada em uma das torres mais altas do castelo, acessível através do retrato da Mulher Gorda. Decorada em vermelho e dourado.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">👻</div>
+                    <h3>Fantasma</h3>
+                    <p>Sir Nicholas de Mimsy-Porpington, conhecido como Nick Quase Sem Cabeça, é o fantasma residente da Grifinória.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Cores</h3>
+                    <p>Vermelho escarlate e dourado representam a coragem ardente e a nobreza que definem os grifinórios.</p>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h3 class="values-title">Valores da Grifinória</h3>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <span class="value-icon">💪</span>
+                        <span class="value-text">Coragem</span>
+                    </div>
+                    <div class="value-item">
+                        <span class="value-icon">⚡</span>
+                        <span class="value-text">Ousadia</span>
+                    </div>
+                    <div class="value-item">
+                        <span class="value-icon">👑</span>
+                        <span class="value-text">Nobreza</span>
+                    </div>
+                    <div class="value-item">
+                        <span class="value-icon">🛡️</span>
+                        <span class="value-text">Cavalaria</span>
+                    </div>
+                    <div class="value-item">
+                        <span class="value-icon">❤️</span>
+                        <span class="value-text">Determinação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="characters" class="section characters-section">
+        <div class="container">
+            <h2 class="section-title">Personagens Notáveis</h2>
+            
+            <div class="characters-grid">
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="public/Harry_Potter_character_poster.jpg" alt="Harry Potter">
+                    </div>
+                    <h3>Harry Potter</h3>
+                    <p class="character-role">O Menino que Sobreviveu</p>
+                    <p class="character-description">O bruxo mais famoso de sua geração, conhecido por derrotar Lord Voldemort. Líder natural e extremamente corajoso.</p>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="public/herm.jpg" alt="Hermione Granger">
+                    </div>
+                    <h3>Hermione Granger</h3>
+                    <p class="character-role">A Bruxa Mais Brilhante</p>
+                    <p class="character-description">Nascida trouxa, tornou-se uma das bruxas mais talentosas de sua época. Inteligente, leal e incrivelmente corajosa.</p>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="public/bf84be0f87e866cfb3cca625b261af12.jpg" alt="Ron Weasley">
+                    </div>
+                    <h3>Ron Weasley</h3>
+                    <p class="character-role">O Amigo Leal</p>
+                    <p class="character-description">Melhor amigo de Harry, membro da família Weasley. Demonstrou grande coragem e lealdade em momentos cruciais.</p>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="public/dumble.jpg" alt="Albus Dumbledore">
+                    </div>
+                    <h3>Albus Dumbledore</h3>
+                    <p class="character-role">O Maior Bruxo</p>
+                    <p class="character-description">Diretor de Hogwarts e um dos bruxos mais poderosos de todos os tempos. Mentor de Harry Potter.</p>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="public/McGonagall_(screenshot).jpg" alt="Minerva McGonagall">
+                    </div>
+                    <h3>Minerva McGonagall</h3>
+                    <p class="character-role">Chefe da Casa</p>
+                    <p class="character-description">Professora de Transfiguração e chefe da Grifinória. Justa, severa e extremamente competente.</p>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="public/Neville_Longbottom.jpeg" alt="Neville Longbottom">
+                    </div>
+                    <h3>Neville Longbottom</h3>
+                    <p class="character-role">O Herói Improvável</p>
+                    <p class="character-description">Inicialmente tímido, revelou-se um dos bruxos mais corajosos, destruindo a última Horcrux de Voldemort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="movies" class="section movies-section">
+        <div class="container">
+            <h2 class="section-title">A Saga Harry Potter</h2>
+            
+            <div class="movies-intro">
+                <p>A saga Harry Potter é composta por 8 filmes épicos que acompanham a jornada do jovem bruxo desde sua chegada a Hogwarts até a batalha final contra as forças das trevas. A Grifinória desempenha papel central em toda a história.</p>
+            </div>
+
+            <div class="movies-grid">
+                <div class="movie-card">
+                    <div class="movie-number">1</div>
+                    <h3>A Pedra Filosofal</h3>
+                    <p class="movie-year">2001</p>
+                    <p>Harry descobre ser um bruxo e é selecionado para a Grifinória. Junto com Ron e Hermione, protege a Pedra Filosofal de Voldemort.</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-number">2</div>
+                    <h3>A Câmara Secreta</h3>
+                    <p class="movie-year">2002</p>
+                    <p>Harry enfrenta o basilisco e descobre mais sobre seu passado, salvando Ginny Weasley da Câmara Secreta.</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-number">3</div>
+                    <h3>O Prisioneiro de Azkaban</h3>
+                    <p class="movie-year">2004</p>
+                    <p>Harry conhece Sirius Black, seu padrinho, e aprende sobre a verdade por trás da traição de seus pais.</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-number">4</div>
+                    <h3>O Cálice de Fogo</h3>
+                    <p class="movie-year">2005</p>
+                    <p>Harry compete no Torneio Tribruxo e testemunha o retorno de Voldemort ao poder.</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-number">5</div>
+                    <h3>A Ordem da Fênix</h3>
+                    <p class="movie-year">2007</p>
+                    <p>Harry forma a Armada de Dumbledore e enfrenta Voldemort no Ministério da Magia, perdendo Sirius.</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-number">6</div>
+                    <h3>O Enigma do Príncipe</h3>
+                    <p class="movie-year">2009</p>
+                    <p>Harry descobre os segredos das Horcruxes e testemunha a morte de Dumbledore pelas mãos de Snape.</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-number">7</div>
+                    <h3>As Relíquias da Morte - Parte 1</h3>
+                    <p class="movie-year">2010</p>
+                    <p>Harry, Ron e Hermione deixam Hogwarts para caçar e destruir as Horcruxes de Voldemort.</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-number">8</div>
+                    <h3>As Relíquias da Morte - Parte 2</h3>
+                    <p class="movie-year">2011</p>
+                    <p>A batalha final em Hogwarts. Harry enfrenta Voldemort e traz paz ao mundo bruxo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+        <div class="container">
+            <h2 class="section-title">Quiz da Grifinória</h2>
+            
+            <div class="quiz-container">
+                <div id="quiz-intro" class="quiz-intro">
+                    <p>Teste seus conhecimentos sobre a casa mais corajosa de Hogwarts!</p>
+                    <button id="start-quiz-btn" class="quiz-btn">Iniciar Quiz</button>
+                </div>
+
+                <div id="quiz-content" class="quiz-content" style="display: none;">
+                    <div class="quiz-progress">
+                        <span id="question-counter">Pergunta 1 de 8</span>
+                        <div class="progress-bar">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                    </div>
+
+                    <div id="question-container" class="question-container">
+                        <h3 id="question-text" class="question-text"></h3>
+                        <div id="answers-container" class="answers-container"></div>
+                    </div>
+
+                    <div id="feedback-container" class="feedback-container" style="display: none;">
+                        <div id="feedback-content"></div>
+                        <button id="next-question-btn" class="quiz-btn">Próxima Pergunta</button>
+                    </div>
+                </div>
+
+                <div id="quiz-results" class="quiz-results" style="display: none;">
+                    <div class="results-content">
+                        <h3>Quiz Concluído!</h3>
+                        <div class="score-display">
+                            <span id="final-score"></span>
+                        </div>
+                        <p id="results-message"></p>
+                        <button id="restart-quiz-btn" class="quiz-btn">Refazer Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Design%20sem%20nome-oLJbWQj29CoWjxPsdgErD9JhX8yqXP.png" alt="Brasão da Grifinória" class="footer-crest">
+                <p class="footer-text">Grifinória - Onde habitam os corajosos de coração</p>
+                <p class="footer-copyright">Harry Potter © J.K. Rowling & Warner Bros.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
